@@ -1,0 +1,4 @@
+下载mysql-for-visualstudio-1.2.7.msi安装
+Vs新建MFC窗体程序
+工具-连接到数据库
+具体youtube
