@@ -1,5 +1,4 @@
-//在二叉树中找到了累加和为指定值的最长路径长度
-package binary_tree;
+package getmaxlength;//在二叉树中找到了累加和为指定值的最长路径长度
 
 import java.util.HashMap;
 import java.util.Map;
