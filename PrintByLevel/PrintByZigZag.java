@@ -27,7 +27,8 @@ public class PrintByZigZag {
                     nlast = nlast == null ? head.right : nlast;
                     dq.offerLast(head.right);
 
-                } else {
+                }
+                else {
                     head = dq.pollLast();
                     if (head.right != null) {
                         nlast = nlast == null ? head.right : nlast;
@@ -38,14 +39,13 @@ public class PrintByZigZag {
                         dq.offerFirst(head.left);
                     }
                 }
-                System.out.println(head.value + " ");
-                if (head == last && !dq.isEmpty()) {
+            }
+            System.out.println(head.value + " ");
+            if (head == last && !dq.isEmpty()) {
                     lr = !lr;
                     last = nlast;
                     nlast = null;
                     System.out.println();
-
-                }
             }
             System.out.println();
         }
