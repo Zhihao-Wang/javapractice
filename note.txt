@@ -1,0 +1,80 @@
+多元高斯模型的时候发现sigma是不可逆的时候
+ 首先要确保m》10n（m是训练集规模，n是特征变量），其次要检查冗余特征变量
+mysql password admin666
+ftp://192.168.46.122/
+算法：KNN-IRIS 
+数据：搭建平台
+搞技术的都以为技术牛逼，能拯救世界。而社会真正值钱、让你活得有安全感的，是和人打交道、拉关系。
+当你拼死拼活成为teamleader年薪30w的时候，你在家乡做公务员的同学已经升了科长年收入也与你差不多。而且稳定、轻松。
+mingw64
+
+补充一下经历，来公司前我的经验局限于web后端开发，对系统底层了解很浅，也没有C相关经验。 
+
+工作内容是开发维护一个机制类似nginx，c实现的网络框架，涉及到epoll、socket、并发等。因为是内部项目，没有文档，也没有谁指导，只能硬着头皮自己读懂它。 
+
+几乎每一个函数调用、每一个tcp选项我都Google了一遍，一边查资料一边写注释，因为是框架，逻辑比较复杂，我画流程图、写总结用了两本草稿本，这个时候觉得纸比电脑好用太多。 
+
+一个月左右，我从gcc都不会用，到能把80%经常用到的模块原理和流程复述出来。应该没人会知道，之前我连TCP和UDP的区别都不清楚。 
+
+我以前也尝试过很多次，去阅读一些开源项目，但往往看到一半就觉得太难、无聊而看不下去。 
+
+现在我明白，以前说到底是动力不足。如果有一份不得不读的代码，用好Google和纸，哪怕是汇编，也是可以读懂的。
+"C:\Program Files\MySQL\MySQL Server 5.7\bin\mysql.exe" -u root -padmin --default-character-set=utf8 tmall_ssm < d:\tmall_ssm.sql
+
+"C:\Program Files\MySQL\MySQL Server 5.7\bin\mysql.exe" -u root -padmin 
+
+DATABASE tmall_ssm DEFAULT CHARACTER SET utf8;
+
+共享5.31
+
+\\192.168.46.57 
+
+实验室共享文件夹
+
+\\xnlab
+
+
+CentOS passwd Roma..94
+root passwd admin
+
+oracle
+627243089@qq.com
+Ro..94
+
+写数据只写db
+更新数据先更新db，再失效cache
+读数据，先读cache，未命中读db，写入cache
+IDEA快捷键
+Ctrl+h 查看接口的实现类或类的继承关系
+
+
+linux 命令：
+cat 文件内容全部显示
+rm -rf 删除文件
+mv  改文件名
+dir 显示当前文件夹下的文件
+vi /etc/profile 打开环境变量进行配置
+source /etc/profile 刷新环境变量
+systemctl stop firewalld.service 停止防火墙
+systemctl disable firewalld.service 禁止防火墙开机启动
+
+
+
+git reset --hard HEAD
+然后再git pull
+这个命令的意思是舍弃你现在前端的所有更改
+
+查看nginx进程
+tasklist /fi "imagename eq nginx*"
+关闭所有进程
+ taskkill /fi "imagename eq nginx*" /F
+
+ 老师还说大题中计算题的主要的出题范围有第一章（数值方法引论）的误差、第二章（线性方程
+组解法）的杜立特尔分解与线性迭代、第四章（非线性方程的迭代解法）的非线性迭代、第五章
+（插值与逼近）的插值与曲线积分、第六章（数值积分）的龙贝格求积算法、第七章（常微分方程
+初值问题的数值解法）的改进欧拉法。至于分析题与证明题，老师没有说。
+
+课程作业邮件发给老师：
+主题：计算机控制2-（学号）
+邮箱：912952120@qq.com
+时间：另行通知，请关注群消息
