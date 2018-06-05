@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0982441-0514-434e-9b93-387217aa7cc7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Knapsack.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PartitionEqual.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/coding/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/coding/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,16 +26,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
               <caret line="12" column="38" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ThreadTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -102,11 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Knapsack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Knapsack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Knapsack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="440">
+              <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartitionEqual.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PartitionEqual.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -153,6 +152,7 @@
         <option value="$PROJECT_DIR$/WiggleSub.java" />
         <option value="$PROJECT_DIR$/LengthOfLCS.java" />
         <option value="$PROJECT_DIR$/Knapsack.java" />
+        <option value="$PROJECT_DIR$/PartitionEqual.java" />
       </list>
     </option>
   </component>
@@ -167,8 +167,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=local" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="253" />
-    <option name="y" value="2" />
+    <option name="x" value="623" />
     <option name="width" value="1601" />
     <option name="height" value="1042" />
   </component>
@@ -229,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Knapsack">
+  <component name="RunManager" selected="JUnit.PartitionEqual">
     <configuration name="Knapsack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="coding" />
@@ -290,13 +289,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WiggleSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PartitionEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="coding" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WiggleSub" />
+      <option name="MAIN_CLASS_NAME" value="PartitionEqual" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -310,15 +309,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="WiggleSub.testWs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WiggleSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="coding" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WiggleSub" />
-      <option name="METHOD_NAME" value="testWs" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -412,19 +411,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WiggleSub.testWs" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WiggleSub" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.LengthOfLCS.testLCS" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.LengthOfLCS" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Knapsack" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.WiggleSub" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.LengthOfLCS.testLCS" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.LengthOfLCS" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.Knapsack" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PartitionEqual" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.Knapsack" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.LengthOfLCS" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.LengthOfLCS.testLCS" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.WiggleSub" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.WiggleSub.testWs" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PartitionEqual" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.Knapsack" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.LengthOfLCS" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.LengthOfLCS.testLCS" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.WiggleSub" />
       </list>
     </recent_temporary>
   </component>
@@ -443,7 +442,7 @@
       <workItem from="1520423533154" duration="4358000" />
       <workItem from="1528083153655" duration="5801000" />
       <workItem from="1528094714520" duration="5706000" />
-      <workItem from="1528164269253" duration="5101000" />
+      <workItem from="1528164269253" duration="5975000" />
     </task>
     <task id="LOCAL-00001" summary="[A]最长摆动子序列">
       <created>1528091482170</created>
@@ -459,7 +458,14 @@
       <option name="project" value="LOCAL" />
       <updated>1528094480289</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[A]01背包(注释部分为未优化代码，目前代码进行了空间优化)">
+      <created>1528200142739</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1528200142739</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -475,14 +481,14 @@
     <history-entry file="Knapsack - 2018.06.05 at 20h 00m 22s.xml">
       <configuration name="Knapsack" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LengthOfLCS_testLCS - 2018.06.04 at 14h 08m 12s.xml">
-      <configuration name="LengthOfLCS.testLCS" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LengthOfLCS_testLCS - 2018.06.04 at 14h 13m 01s.xml">
-      <configuration name="LengthOfLCS.testLCS" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LengthOfLCS_testLCS - 2018.06.04 at 14h 16m 03s.xml">
       <configuration name="LengthOfLCS.testLCS" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartitionEqual - 2018.06.05 at 20h 13m 06s.xml">
+      <configuration name="PartitionEqual" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PartitionEqual - 2018.06.05 at 20h 15m 54s.xml">
+      <configuration name="PartitionEqual" configurationId="JUnit" />
     </history-entry>
     <history-entry file="WiggleSub - 2018.06.04 at 13h 44m 27s.xml">
       <configuration name="WiggleSub" configurationId="JUnit" />
@@ -495,10 +501,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31893000" />
+    <option name="totallyTimeSpent" value="32767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="253" y="2" width="1601" height="1042" extended-state="0" />
+    <frame x="623" y="0" width="1601" height="1042" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -510,12 +516,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22814983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20440637" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22814983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20431328" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10317975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10317975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -523,7 +529,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5334847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5334847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -541,14 +547,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[A]最长摆动子序列" />
     <MESSAGE value="[A]最长公共子序列" />
-    <option name="LAST_COMMIT_MESSAGE" value="[A]最长公共子序列" />
+    <MESSAGE value="[A]01背包(注释部分为未优化代码，目前代码进行了空间优化)" />
+    <option name="LAST_COMMIT_MESSAGE" value="[A]01背包(注释部分为未优化代码，目前代码进行了空间优化)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -887,8 +894,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Knapsack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="440">
+          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartitionEqual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding />
         </state>
       </provider>
