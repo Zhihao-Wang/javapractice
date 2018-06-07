@@ -6,29 +6,18 @@ public class MaxSubArray {
     public static int maxsubarr(int[] array)
     {
         if(array == null || array.length == 0)
-        {
             return 0;
-        }
         int sumMax = array[0];
         int currentMax = array[0];//保存子数组相加之和
         //从头开始遍历相加数组中的元素
         for (int i = 1; i < array.length; i++)
         {
             //若是相加之和一旦小于零，子数组从新开始，否则相加
-            if(currentMax < 0)
-            {
-                currentMax = array[i];
-            }
-            else
-            {
-                currentMax = currentMax + array[i];
-            }
+            currentMax=currentMax < 0? array[i]:currentMax + array[i];
             //sumMax保存最大的子数组的和
-            if(currentMax > sumMax)
-            {
-                sumMax = currentMax;
-            }
+           sumMax=Math.max(sumMax,currentMax);
         }
+
         return sumMax;
     }
 }
