@@ -10,6 +10,7 @@ public class Toutiao1 {
         int[] a=new int[n1];
         int[] b=new int[n2];
         int[] dp=new int[m+1];
+        dp[0]=1;
         for(int i=0;i<n1;i++)
             a[i]=in.nextInt();
         for(int i=0;i<n2;i++)
@@ -19,6 +20,7 @@ public class Toutiao1 {
                 dp[j]+=dp[j-a[i]];
             }
         }
+        //拿一个b[i]=3能和j-b[i]=2即dp[2]组合多少种再加上之前的种数
         for(int i=0;i<n2;i++){
             for(int j=m;j>=b[i];j--){
                 dp[j]+=dp[j-b[i]];
