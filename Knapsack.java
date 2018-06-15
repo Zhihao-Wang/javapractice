@@ -15,25 +15,34 @@ public class Knapsack {
 //        }
 //        return dp[N][W];
 //    }
-    public int knapsack(int W, int N, int[] weights, int[] values) {
-        int[] dp = new int[W + 1];
+
+
+    public int knapsack(int Capacity, int N, int[] weights, int[] values) {
+        int[] dp = new int[Capacity + 1];
+        //01背包
         for (int i = 1; i <= N; i++) {
             int w = weights[i - 1], v = values[i - 1];
-            for (int j = W; j >= 1; j--) {
+            for (int j = Capacity; j >= 1; j--) {
                 if (j >= w) {
                     dp[j] = Math.max(dp[j], dp[j - w] + v);
                 }
             }
         }
-        return dp[W];
+        //完全背包
+//        for(int i=0;i<N;i++){
+//            int w = weights[i], v = values[i];
+//            for(int j=w;j<=Capacity;j++){
+//                dp[j]=Math.max(dp[j],dp[j-w]+v);
+//            }
+//        }
+        return dp[Capacity];
     }
-
     @Test
     public void test() {
-        int w = 10;
+        int Capacity = 10;
         int n = 5;
-        int[] weights = {2, 2, 6, 5, 4};
-        int[] values = {6, 3, 5, 4, 6};
-        System.out.println(knapsack(w, n, weights, values));
+        int[] weights = {2, 1, 3, 3, 4};
+        int[] values = {4, 2, 6, 7, 6};
+        System.out.println(knapsack(Capacity, n, weights, values));
     }
 }
