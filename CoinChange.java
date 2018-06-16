@@ -14,6 +14,11 @@ public class CoinChange {
                     dp[i] = Math.min(dp[i], dp[i - c] + 1);//dp[i-c]+1这个1代表加上1次面值为c的coin
                 }
             }
+            System.out.print("i=" + i+"  ");
+            for (int d : dp) {
+                System.out.print(d+"  ");
+            }
+            System.out.println();
         }
         return dp[amount] > amount ? -1 : dp[amount];
     }
@@ -22,6 +27,6 @@ public class CoinChange {
     public void test() {
         int[] coins = {1, 2, 5};
         int amount = 11;
-        System.out.println(coinChange(coins,amount));
+        System.out.println(coinChange(coins, amount));
     }
 }
