@@ -44,5 +44,6 @@ public class TwoStackQueue {
         System.out.println(q.poll());
         System.out.println(q.poll());
         System.out.println(q.peek());
+
     }
 }
